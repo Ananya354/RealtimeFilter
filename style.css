@@ -1,0 +1,28 @@
+h1 {
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#snap {
+    font-size: 20px;
+    background-color: beige;
+    color: cornflowerblue;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px rgb(255, 255, 255);
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(247, 0, 99);
+    }
+}
+
+;
